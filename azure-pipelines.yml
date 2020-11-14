@@ -4,7 +4,7 @@ variables:
 steps:
 - task: XamariniOS@2
   inputs:
-    solutionFile: '**/*iOS.csproj'
-    configuration: '$(buildConfiguration)'
+    solutionFile: 'MobileApp.iOS.csproj'
+    configuration: '$(Debug)'
     packageApp: false
     buildForSimulator: true
